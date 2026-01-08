@@ -3,10 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>기본 웹페이지</title>
+    <title>Aroma Coffee - 프리미엄 커피 경험</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>환영합니다</h1>
-    <p>기본 HTML 페이지입니다.</p>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Aroma Coffee</div>
+            <ul class="nav-menu">
+                <li><a href="#home">홈</a></li>
+                <li><a href="#menu">메뉴</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">완벽한 한 잔의 커피</h1>
+            <p class="hero-subtitle">매일 아침, 신선하게 로스팅된 원두로 당신의 하루를 시작하세요</p>
+            <button class="cta-button">메뉴 보기</button>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">인기 메뉴</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #8B4513, #A0522D);"></div>
+                    <h3>에스프레소</h3>
+                    <p>진한 풍미의 클래식 에스프레소</p>
+                    <span class="price">4,500원</span>
+                </div>
+                <div class="menu-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #D2691E, #CD853F);"></div>
+                    <h3>카페라떼</h3>
+                    <p>부드러운 우유와 에스프레소의 조화</p>
+                    <span class="price">5,000원</span>
+                </div>
+                <div class="menu-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #8B7355, #A0826D);"></div>
+                    <h3>카푸치노</h3>
+                    <p>풍부한 크림 거품이 일품</p>
+                    <span class="price">5,500원</span>
+                </div>
+                <div class="menu-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #6F4E37, #8B6914);"></div>
+                    <h3>아메리카노</h3>
+                    <p>깔끔하고 시원한 맛</p>
+                    <span class="price">4,000원</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>우리의 이야기</h2>
+                    <p>Aroma Coffee는 2020년부터 최상급 원두만을 선별하여 매일 신선하게 로스팅하고 있습니다.</p>
+                    <p>전문 바리스타들이 정성껏 내려드리는 한 잔의 커피로 특별한 경험을 선사합니다.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>원두 종류</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5000+</h3>
+                        <p>월 고객 수</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>4.9★</h3>
+                        <p>고객 평점</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Aroma Coffee</h3>
+                    <p>최고의 커피 경험을 제공합니다</p>
+                </div>
+                <div class="footer-section">
+                    <h4>영업시간</h4>
+                    <p>월-금: 07:00 - 22:00</p>
+                    <p>주말: 09:00 - 23:00</p>
+                </div>
+                <div class="footer-section">
+                    <h4>연락처</h4>
+                    <p>Tel: 02-1234-5678</p>
+                    <p>Email: info@aromacoffee.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aroma Coffee. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
